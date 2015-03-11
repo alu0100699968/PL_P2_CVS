@@ -13,12 +13,12 @@ suite('csv', function() {
   test('Dos filas con tres columnas', function() {
     original.value = 'a, 1, 2 \n b, 3, 4';
     calculate();
-    assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>a</td>                                  <td> 1</td>                                  <td> 2 </td>              </tr>\n<tr>                    <td>b</td>                                  <td> 3</td>                                  <td> 4</td>              </tr>\n</tbody></table>' to deeply equal '<table class="center" id="result"><tbody><tr><td>a</td><td> 1</td><td> 2</td></tr><tr><td>b</td><td> 3</td><td> 4</td></tr></tbody></table>');
+    assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>a</td>                                  <td> 1</td>                                  <td> 2 </td>              </tr>\n<tr>                    <td>b</td>                                  <td> 3</td>                                  <td> 4</td>              </tr>\n</tbody></table>');
   });
 
   test('Dos filas con distinto número de columnas', function() {
     original.value = 'a, 1, 2 \n b, 3, 4, 5';
     calculate();
-    assert.match(finaltable.innerHTML, 'class=error');
+    assert.match(finaltable.innerHTML, 'class=errord');
   });
 });
