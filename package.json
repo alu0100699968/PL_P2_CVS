@@ -1,0 +1,19 @@
+{
+  "name": "PL_P2_CSV",
+  "version": "1.0.0",
+  "description": "## Comma Separated Values. CSV Taller",
+  "main": "csv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alu0100699968/PL_P2_CVS.git"
+  },
+  "author": "Sergio Rodríguez y Jonathan Expósito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100699968/PL_P2_CVS/issues"
+  },
+  "homepage": "https://github.com/alu0100699968/PL_P2_CVS"
+}
