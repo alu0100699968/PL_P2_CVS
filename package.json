@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alu0100699968/PL_P2_CVS/issues"
   },
-  "homepage": "https://github.com/alu0100699968/PL_P2_CVS"
+  "homepage": "https://github.com/alu0100699968/PL_P2_CVS",
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  }
 }
