@@ -23,7 +23,7 @@ module.exports = function(config) {
     files: [
       'tests/index.html',
       'tests/*.js',
-      'javascripts/temperature.js'
+      'csv.js'
     ],
 
 
