@@ -5,10 +5,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mocha.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+    <script src="../csv.js" data-cover></script>
   </head>
   <body>
     <div id="mocha"></div>
-    
+
     <div>
       <i>Escriba un string CSV. Al hacer click en el butón se mostrará una tabla con la interpretación de los datos</i>
     </div>
@@ -19,11 +22,10 @@
     </tr>
     <button type="button">Tabla</button><br>
     <span class="output" id="finaltable"></span>
-    
+
     <script src="chai.js"></script>
     <script src="mocha.js"></script>
-    <script src="../csv.js" data-cover></script>
-    
+
     <script>mocha.setup('bdd')</script>
     <script src="tests.js"></script>
     <script>
