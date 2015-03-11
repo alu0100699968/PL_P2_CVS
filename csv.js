@@ -54,8 +54,8 @@ function calculate() {
   }
   r.unshift('<p>\n<table class="center" id="result">');
   r.push('</table>');
-  //alert(r.join('\n')); // debug
-  finaltable.innerHTML = r.join('\n');
+  //finaltable.innerHTML = r.join('\n');
+  document.getElementById("finaltable").innerHTML = r.join('\n');
 }
 
 window.onload = function() {
