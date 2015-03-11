@@ -76,6 +76,11 @@ table {
   border-collapse:collapse;
 }
 
+tr.error { 
+  background-color: red;
+}
+
+
 th, td {
   text-align:left;
   padding:5px 10px;
