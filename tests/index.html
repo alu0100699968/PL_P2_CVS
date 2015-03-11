@@ -8,7 +8,13 @@
   </head>
   <body>
     <div id="mocha"></div>
+    
+    <span class="output" id="finaltable"></span>
+    
+    <script src="chai.js"></script>
     <script src="mocha.js"></script>
+    <script src="../csv.js" data-cover></script>
+    
     <script>mocha.setup('bdd')</script>
     <script src="tests.js"></script>
     <script>
