@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alu0100699968/PL_P2_CVS",
   "devDependencies": {
+    "chai": "^2.1.1",
     "mocha": "^2.2.1"
   }
 }
