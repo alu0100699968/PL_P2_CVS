@@ -19,6 +19,6 @@ suite('csv', function() {
   test('Dos filas con distinto número de columnas', function() {
     original.value = 'a, 1, 2 \n b, 3, 4, 5';
     calculate();
-    assert.match(finaltable.innerHTML, 'class=errord');
+    assert.match(finaltable.innerHTML, /error/);
   });
 });
