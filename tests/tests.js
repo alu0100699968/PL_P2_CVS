@@ -25,6 +25,6 @@ suite('csv', function() {
   test('Fila vacía', function() {
     original.value = 'a, 1, 2 \nb, 3, 4\n';
     calculate();
-    assert.match(finaltable.innerHTML, /ERROR! row/);
+    assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>a</td>                                  <td> 1</td>                                  <td> 2 </td>              </tr>\n<tr>                    <td>b</td>                                  <td> 3</td>                                  <td> 4</td>              </tr>\n</tbody></table>');
   });
 });
