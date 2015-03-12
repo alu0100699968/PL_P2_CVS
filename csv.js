@@ -30,7 +30,6 @@ function calculate() {
     
     if (m) {
       if (commonLength && (commonLength != m.length)) {
-        //alert('ERROR! row <'+temp+'> has '+m.length+' items!');
         error = true;
       }
       else {
@@ -54,7 +53,6 @@ function calculate() {
   }
   r.unshift('<p>\n<table class="center" id="result">');
   r.push('</table>');
-  //finaltable.innerHTML = r.join('\n');
   document.getElementById("finaltable").innerHTML = r.join('\n');
 }
 
