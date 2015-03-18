@@ -5,7 +5,7 @@
   "main": "csv.js",
   "scripts": {
     "test": "gulp tests",
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
