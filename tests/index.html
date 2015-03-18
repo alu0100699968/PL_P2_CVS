@@ -12,7 +12,7 @@
 		<p>
 			<table class="center" id="result">
 				<% _.each(rows, function(row) { %>
-				<tr "<%=row.type%>">
+				<tr <%=row.type%>>
 					<% _.each(row.items, function(name) { %>
 					<td><%= name %></td>
 					<% }); %>
