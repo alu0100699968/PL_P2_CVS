@@ -82,18 +82,9 @@ tr.error {
 }
 
 
-th, td {
-  text-align:left;
-  padding:5px 10px;
-}
-
 dt {
   color:#444;
   font-weight:700;
-}
-
-th {
-  color:#444;
 }
 
 img {
