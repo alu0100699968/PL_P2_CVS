@@ -73,13 +73,12 @@ pre {
 
 table {
   width:100%;
-  border-style: none
   border-collapse:separate;
   border: 1px solid black;
 }
 
 tr.error { 
-  border: 1px solid red;
+  border: 1px double red;
 }
 
 
