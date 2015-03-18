@@ -51,7 +51,7 @@ app.get('/commaSeparated', function (request, response) {
                 var removeescapedquotes = removelastquote.replace(/\\"/, '"');
                 result.push(removeescapedquotes);
             }
-            var tr = error? 'class="error">' : '';
+            var tr = error? 'class="error"' : '';
             row = new Object();
             row.type = tr;
             row.items = result;
