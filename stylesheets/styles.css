@@ -78,6 +78,7 @@ table {
 }
 
 tr.error { 
+  background-color: red;
   border: 1px double red;
 }
 
