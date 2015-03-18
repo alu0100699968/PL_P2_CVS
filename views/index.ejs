@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<h1>Analizador CSV</h1>
+<div>
+  <i>Escriba un string CSV. Al hacer click en el butón se mostrará una tabla con la interpretación de los datos</i>
+</div>
+<p></p>
+<tr>
+  <th>String CSV:</th> <!-- autofocus attribute is HTML5 -->
+  <td><textarea autofocus cols = "80" rows = "5" id="original"></textarea></td>
+</tr>
+<button type="button">Tabla</button><br>
+<span class="output" id="finaltable"></span>
