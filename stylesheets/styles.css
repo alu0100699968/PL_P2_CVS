@@ -73,10 +73,9 @@ pre {
 
 table {
   width:100%;
-}
-
-tr { 
-  border: 1px solid blue;
+  border-style: none
+  border-collapse:collapse;
+  border: 1px solid black;
 }
 
 tr.error { 
