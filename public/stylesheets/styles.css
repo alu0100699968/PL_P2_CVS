@@ -5,15 +5,22 @@ body {
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
+  background-image: url("../img/bck.png");
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:white;
   margin:0 0 20px;
 }
 
-p, ul, ol, pre, dl {
+p, ul, ol, pre, dl, i {
   margin:0 0 20px;
+  color:black;
+  font-weight:bold;
+}
+
+form {
+  display: inline;
 }
 
 h1, h2, h3 {
@@ -72,6 +79,7 @@ table {
   width:40%;
   border-collapse:collapse;
   border: 1px solid black;
+  color:black;
 }
 
 tr.error {
