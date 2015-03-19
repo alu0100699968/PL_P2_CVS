@@ -14,8 +14,6 @@ app.use(expressLayouts);
 
 app.use(express.static(__dirname + '/public'));
 
-//app.locals._ = require('underscore');
-
 app.get('/', function (request, response) {
     response.render('index', { title: 'Analizador CSV' });
 });
