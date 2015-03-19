@@ -4,7 +4,7 @@ suite('csv', function() {
 
   setup(function(){
     if (typeof __html__ !== 'undefined') {
-      document.body.innerHTML = __html__['tests/index.html'];
+      document.body.innerHTML = __html__['tests/old_working_index.html'];
       original = document.getElementById('original');
       finaltable = document.getElementById('finaltable');
     }
@@ -21,7 +21,7 @@ suite('csv', function() {
     calculate();
     assert.match(finaltable.innerHTML, /error/);
   });
-  
+
   test('Fila vacía', function() {
     original.value = 'a, 1, 2 \nb, 3, 4\n';
     calculate();
