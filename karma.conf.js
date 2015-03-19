@@ -22,9 +22,10 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'javascripts/*.js',
-      'tests/index.html',
-      'tests/*.js',
-      'csv.js'
+      'public/tests/karmai.html',
+      'public/tests/*.js',
+      'public/csv.js',
+      'public/template.html'
     ],
 
 
@@ -37,7 +38,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'tests/index.html': ['html2js']
+      'public/tests/index.html': ['html2js']
     },
 
 
